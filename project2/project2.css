@@ -1,0 +1,73 @@
+body {
+    padding: 20px 10px;
+    font-family: Helvetica;
+    max-width: 2000px;
+    min-width: 800px;
+    font-size: 1.6em;
+    }
+
+h1 {
+    margin-left: 200px;
+    text-align: left;
+    color: chocolate;
+}
+
+
+p {
+    margin: 10px 0;
+}
+
+ul {
+    
+    font-size: 25px;
+    color: darkblue;
+    list-style-type: none;
+    text-align: left;
+    margin-left: 150px;
+    
+}
+
+li {
+    font-size: 1.2em;
+    line-height: 2em; 
+}
+
+
+.title1 {
+    background-color:chocolate;
+    padding: 4px;
+    margin: 10px;
+    width: 400px;
+    color: white;
+    text-align: center
+}
+
+
+.indexblock {
+    font-size: 30px;
+    padding: 20px;
+    align-content: center;
+    color: blue;
+    text-align: center;        
+}
+
+/*details of sights boxes control by .content box, img and p designed here */
+.contentbox {
+margin-left: 200px;
+}
+
+.contentbox p {
+    width: 400px;
+    padding-top: 40px;
+    font-size: 18px;
+    display: flex;
+}
+
+.contentbox img {
+    width: 300px;
+    float:left;
+    padding: 10px;
+}
+.endfloat {
+    clear:both
+}
